@@ -22,4 +22,4 @@ eureka:
     instance-id: ${spring.application.name}:${server.port}
     hostname: ${spring.application.name}
     preferIpAddress: true
-env: devadsf
+env: dev
