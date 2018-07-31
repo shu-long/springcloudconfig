@@ -4,15 +4,15 @@ server:
 spring:
   application:
     name: provider
-  rabbitmq:
-    host: 192.168.10.83
-    username: shulong
-    password: 123
-    port: 5672
+  #rabbitmq:
+   # host: 192.168.10.83
+    #username: shulong
+    #password: 123
+    #port: 5672
 
-management:
-  security:
-    enabled: false
+#management:
+ # security:
+  #  enabled: false
     
 eureka:
   client:
